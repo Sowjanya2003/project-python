@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/table.css')}}" />
+    <title>Book a Table</title>
+</head>
+<body>
+<section class="sub-header">
+            <nav>
+                <a href="home.html"><img src="{{url_for('static', filename='/images/logo.png')}}"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="http://127.0.0.1:5000/home">HOME</a></li>
+                        <li><a href="http://127.0.0.1:5000/about">ABOUT</a></li>
+                        <li><a href="http://127.0.0.1:5000/menu">MENU</a></li>
+                        <li><a href="http://127.0.0.1:5000/table">TABLE</a></li>
+                        <li><a href="http://127.0.0.1:5000/contact">CONTACT</a></li>
+                        <li><a href="http://127.0.0.1:5000/mainhome">LOGOUT</a></li>
+                    </ul>
+                </div>
+            </nav>
+</section>
+  <div class="container">
+            <div class="container-time">
+                <h2 class="heading">Time Open</h2>
+                <h3 class="heading-days">Monday-Friday</h3>
+                <p>7am-11am(Breakfast)</p>
+                <p>11am-10pm(Lunch/Dinner)</p>
+
+                <h3 class="heading-days">Saturday and Sunday</h3>
+                <p>9am-1am(Breakfast)</p>
+                <p>1am-10pm(Lunch/Dinner)</p>
+                <hr>
+                <h4 class="heading-phone">Call Us:(123) 45-45-456</h4>
+
+            </div>
+            <div class="container-form">
+                <form action="a">
+                    <h2 class="heading heading-yellow">Reservation Online</h2>
+
+                    <div class="form-fields">
+                        <p>Your Name</p>
+                        <input type="text" placeholder="Your Name">
+                    </div>
+                    <div class="form-fields">
+                        <p>Your E-mail</p>
+                        <input type="email" placeholder="Your E-mail">
+                    </div>
+                    <div class="form-fields">
+                        <p>Date</p>
+                        <input type="date">
+                    </div>
+                    <div class="form-fields">
+                        <p>Time</p>
+                        <input type="time">
+                    </div>
+                    <div class="form-fields">
+                        <p>Branch</p>
+                        <select name="select" id="#">
+                            <option value="1">select branch</option>
+                            <option value="2">Hyderabad</option>
+                            <option value="3">Vijayawada</option>
+                            <option value="4">Vishakhapatnam</option>
+                        </select>
+                    </div>
+                    <div class="form-fields">
+                        <p>How many people</p>
+                        <select name="select" id="#">
+                            <option value="1">select persons</option>
+                            <option value="1">1 person</option>
+                            <option value="2">2 persons</option>
+                            <option value="3">3 persons</option>
+                            <option value="4">4 persons</option>
+                            <option value="5">5 persons</option>
+                            <option value="6">6 persons</option>
+                        </select>
+                    </div>
+                    <button class ="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+</body>
+</html>

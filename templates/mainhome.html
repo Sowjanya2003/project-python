@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/main.css')}}" />
+    <title>Crunchy Snowflake</title>
+</head>
+<body>
+    <section class="header">
+            <nav>
+                <a href="mainhome.html"><img src="{{url_for('static', filename='/images/logo.png')}}"></a>
+            </nav>
+    <div class="text-box">
+        <h1>Crunchy Snowflake Restaurant</h1>
+        <h3>Life is Endlessly Delicious</h3>
+        <a href="http://127.0.0.1:5000/login" class="hero-btn"><b>Login/Register</b></a>
+    </div>
+</section>
+
+<section class="hotel">
+    <h1>Our Branches</h1>
+    <p>Enter with a happy heart, leave with a satisfied stomach.</p>
+    <div class="row">
+        <div class="hotel-col">
+            <h3>Hyderabad</h3>
+            <p>Street : Plot No. 367 & 368, Kavuri Hills, Jubilee Hills, Madhapur, Ranga Reddy District<br>City : Hyderabad<br>State : Telangana<br>Postal Code : 500081</p>
+        </div>
+        <div class="hotel-col">
+            <h3>Vijayawada</h3>
+            <p>Street : Hariniwas Circle, Bharat Sahar Road Andheri, Krishna District<br>City : Vijayawada<br>State : Andhra Pradesh<br>Postal Code : 400099</p>
+        </div>
+        <div class="hotel-col">
+            <h3>Vishakhapatnam</h3>
+            <p>Street : Wz O/87 Outer Ring Road, 326 J K Chambers Sector, Vishakhapatnam District<br>City : Vishakhapatnam<br>State : Andhra Pradesh<br>Postal Code : 400703</p>
+        </div>
+    </div>
+</section>
+
+<marquee class="scroll" behavior="scroll" direction="left" scrollamount="15">
+    <img width="400" height="300" src="{{url_for('static', filename='/images/foods1.png')}}">
+    <img width="400" height="300" src="{{url_for('static', filename='/images/foods2.png')}}">
+    <img width="400" height="300" src="{{url_for('static', filename='/images/foods3.png')}}">
+    <img width="400" height="300" src="{{url_for('static', filename='/images/foods4.png')}}">
+    <img width="400" height="300" src="{{url_for('static', filename='/images/foods5.png')}}">
+</marquee>
+
+<section class="cuisine">
+    <h1>Cuisines We Offer</h1>
+    <div class="row">
+        <div class="cuisine-col">
+            <h3>South-Indian Cuisine</h3>
+            <p>South Indian cuisine includes the cuisines of the five southern states of India—Andhra Pradesh, Karnataka, Kerala, Tamil Nadu and Telangana. There are typically vegetarian and non-vegetarian dishes for all five states. Additionally, all regions have typical main dishes, snacks, light meals, desserts, and drinks that are well known in their respective region. </p>
+        </div>
+        <div class="cuisine-col">
+            <h3>North-Indian Cuisine</h3>
+            <p>North Indian cuisine is collectively the cuisine of Northern India, which includes the cuisines of Jammu and Kashmir, Punjab, Haryana, Himachal Pradesh, Rajasthan, Uttarakhand, Delhi, Uttar Pradesh and adjoining western Bihar. It consists of dishes developed in the medieval Indo-Persian cultural centres of the Mughal Empire. It represents a combination of cuisine of the Indian subcontinent with the cooking styles and recipes of Central Asian and Islamic cuisine.</p>
+        </div>
+        <div class="cuisine-col">
+            <h3>Central-Asian Cuisine</h3>
+            <p>Central Asian cuisine has been influenced by Persian, Indian, Arab, Turkish, Chinese, Mongol, African, and Russian cultures, as well as the culinary traditions of other varied nomadic and sedentary civilizations. Central Asian cooking techniques were influenced by the lack of water. The most common vegetables are turnips, tomatoes, radishes, onions, peas, red peppers and cucumbers.</p>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>In the close proximity from our hotel you can enjoy breakfast, business lunch or romantic dinner.</p>
+</section>
+</body>
+</html>

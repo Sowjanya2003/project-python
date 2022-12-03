@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/menu.css')}}" />
+</head>
+<body>
+<section class="sub-header">
+            <nav>
+                <a href="home.html"><img src="{{url_for('static', filename='/images/logo.png')}}"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="http://127.0.0.1:5000/home">HOME</a></li>
+                        <li><a href="http://127.0.0.1:5000/about">ABOUT</a></li>
+                        <li><a href="http://127.0.0.1:5000/menu">MENU</a></li>
+                        <li><a href="http://127.0.0.1:5000/table">TABLE</a></li>
+                        <li><a href="http://127.0.0.1:5000/contact">CONTACT</a></li>
+                        <li><a href="http://127.0.0.1:5000/mainhome">LOGOUT</a></li>
+                    </ul>
+                </div>
+            </nav>
+</section>
+  <div class="main">
+            <div class="section-title">
+                <h2>Our Menu</h2>
+                <p>If It Doesn't Taste Good It Doesn't Go On The Menu</p>
+
+            </div>
+            <div class="menus">
+                <div class="menu-column">
+                    <h3>BreakFast</h3>
+                    <div class="single-menu">
+                        <img src="{{url_for('static', filename='/images/11.png')}}">
+                        <div class="menu-content">
+                            <h5>Dosa<span>Rs.70</span></h5>
+
+                        </div>
+                    </div>
+                    <div class="single-menu">
+                        <img src="{{url_for('static', filename='/images/12.png')}}">
+                        <div class="menu-content">
+                            <h5>Puri<span> Rs.40</span></h5>
+
+                        </div>
+                    </div>
+                    <div class="single-menu">
+                        <img src="{{url_for('static', filename='/images/13.png')}}">
+                        <div class="menu-content">
+                            <h5>Vada<span> Rs.50</span></h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-column">
+                    <h3>Lunch</h3>
+                    <div class="single-menu">
+                        <img src="{{url_for('static', filename='/images/14.png')}}">
+                        <div class="menu-content">
+                            <h5>Biryani<span>Rs.240</span></h5>
+
+                        </div>
+                    </div>
+                    <div class="single-menu">
+                        <img src="{{url_for('static', filename='/images/15.png')}}">
+                        <div class="menu-content">
+                            <h5>South Thali<span>Rs.130</span></h5>
+
+                        </div>
+                    </div>
+                    <div class="single-menu">
+                        <img src="{{url_for('static', filename='/images/16.png')}}">
+                        <div class="menu-content">
+                            <h5>Pulka<span>Rs.90</span></h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-column">
+                    <h3>Dinner</h3>
+                    <div class="single-menu">
+                        <img src="{{url_for('static', filename='/images/17.png')}}">
+                        <div class="menu-content">
+                            <h5>Curd rice<span>Rs.120</span></h5>
+
+                        </div>
+                    </div>
+                    <div class="single-menu">
+                        <img src="{{url_for('static', filename='/images/18.png')}}">
+                        <div class="menu-content">
+                            <h5>Salads<span>Rs.75</span></h5>
+
+                        </div>
+                    </div>
+                    <div class="single-menu">
+                        <img src="{{url_for('static', filename='/images/19.png')}}">
+                        <div class="menu-content">
+                            <h5>Curry<span>Rs.100</span></h5>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>In the close proximity from our hotel you can enjoy breakfast, business lunch or romantic dinner.</p>
+</section>
+</body>
+</html>
